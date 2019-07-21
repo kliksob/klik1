@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.example.tabris" version="0.1.0">
-  <name>Tabris</name>
+<widget id="com.kliksob.klikapp-tabris" version="0.1.0">
+  <name>KlikApp</name>
   <description>
     Example Tabris.js App
   </description>
-  <author email="john@example.org">
-    John Smith
+  <author email="aris@mail.kliksob.com">
+    Aris Riswanto
   </author>
   <preference name="EnableDeveloperConsole" value="$IS_DEBUG" />
 </widget>
