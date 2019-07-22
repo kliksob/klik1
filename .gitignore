@@ -1,0 +1,6 @@
+/build/
+node_modules/
+.trash/
+package-lock.json
+.yarnrc
+yarn.lock

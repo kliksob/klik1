@@ -23,6 +23,7 @@ class DownloaderTab extends Tab {
     this.pageCount = 0;
     this.navbar = new AppNavbar({});
     this.createUi();
+    
   }
   createUi() {
     const container = new Composite({
@@ -50,6 +51,5 @@ class DownloaderTab extends Tab {
       .appendTo(this.navbar);
   }
 }
-
 
 module.exports = DownloaderTab;

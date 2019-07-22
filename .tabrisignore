@@ -1,0 +1,10 @@
+.eslintrc
+.gitignore
+.trash/
+.git/
+node_modules/**/*.d.ts
+node_modules/tabris/ClientMock.js
+package-lock.json
+yarn.lock
+.yarnrc
+README.md
