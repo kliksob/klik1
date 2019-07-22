@@ -12,4 +12,9 @@
   <plugin name="cordova-plugin-network-information" />
   <plugin name="cordova-plugin-file" />
   <preference name="EnableDeveloperConsole" value="$IS_DEBUG" />
+  <platform name="android">
+    <edit-config file="app/src/main/AndroidManifest.xml" target="/manifest/application" mode="merge">
+      <application android:usesCleartextTraffic="true" />
+    </edit-config>
+  </platform>
 </widget>
